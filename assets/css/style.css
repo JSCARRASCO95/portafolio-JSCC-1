@@ -272,7 +272,7 @@ img {
 
 /* Hero */
 .hero {
-  background: linear-gradient(0deg, #0000009e, #000000c4 60%), url('https://plus.unsplash.com/premium_photo-1678565999588-08fdd0b1410b?q=80&w=1594&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+  background: linear-gradient(0deg, #0000009e, #000000c4 60%), url('https://plus.unsplash.com/premium_photo-1678565999588-08fdd0b1410b?q=80&w=1594&auto=fo');
   background-size: cover;
   /* cover | contain */
   background-repeat: no-repeat;
@@ -447,7 +447,7 @@ img {
 /* Projects */
 .projects__container {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
   gap: 20px;
 }
 
@@ -470,6 +470,7 @@ img {
   height: 100%;
   object-fit: cover;
   transition: transform .5s;
+  max-width: 250px;
 }
 
 .projects__card:hover .projects__img {
